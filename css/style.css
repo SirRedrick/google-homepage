@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  margin-right: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 13px;
+
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.header .left a {
+  color: #5f6368;
+  opacity: 0.75;
+}
+
+.header .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-size: 13px;
+
+  padding: 5px;
+}
+
+.header .apps {
+  display: block;
+}
+
+.header .apps .apps-svg {
+  width: 17px;
+  fill: #7b7b7b;
+}
+
+.header .apps .apps-svg:hover {
+  fill: #000;
+}
+
+.header .user {
+  color: #fff;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 2px;
+  border: 1px solid #4285f4;
+  background: #4285f4;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+}
+
+.main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 60px;
+}
+
+.logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.search {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 600px;
+  height: 50px;
+  border: 1px solid #dfe1e5;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.search-icon {
+  width: 25px;
+  position: relative;
+  left: 40px;
+}
+
+.voice {
+  width: 25px;
+  position: relative;
+  left: -45px;
+}
+
+.buttons {
+  padding-top: 40px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  font-size: 14p;
+  background: #f2f2f2;
+  box-shadow: none;
+  border: 1px solid #f2f2f2;
+  color: #222;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  border: 1px solid #c6c6c6;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  padding-right: 27px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer a {
+  margin-left: 27px;
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
